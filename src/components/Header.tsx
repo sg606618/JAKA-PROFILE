@@ -7,6 +7,7 @@ import {
   faBars,
   faBell,
   faCartShopping,
+  faHouse,
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -26,12 +27,12 @@ const Header = () => {
               height={100}
             />
           </div>
-          <div className="flex">
-            <FontAwesomeIcon icon={faBars} className="" />
+          <div className="flex sm:hidden fixed bottom-2 px-2 py-1 justify-around w-full ">
+            <FontAwesomeIcon icon={faHouse} className="" />
           </div>
           <ul className="sm:flex justify-around w-full max-w-[50rem] hidden">
             <>
-              {navLinks.map((items, index) => (
+              {navLinks.map((items) => (
                 <li className="font-semibold text-black tracking-wider cursor-pointer">
                   {items}
                 </li>
