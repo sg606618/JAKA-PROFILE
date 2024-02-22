@@ -1,5 +1,7 @@
 "use client";
 
+"eslint-disable padded-blocks"
+
 import React from "react";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
