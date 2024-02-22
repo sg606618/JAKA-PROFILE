@@ -32,7 +32,7 @@ const Header = () => {
           <div className="flex sm:hidden fixed bottom-2 px-2 py-1 justify-around w-full ">
             <FontAwesomeIcon icon={faHouse} className="" />
           </div>
-          <ul className="sm:flex justify-around w-full max-w-[50rem] hidden">
+          {/* <ul className="sm:flex justify-around w-full max-w-[50rem] hidden">
             <>
               {navLinks.map((items) => (
                 <li className="font-semibold text-black tracking-wider cursor-pointer">
@@ -40,7 +40,7 @@ const Header = () => {
                 </li>
               ))}
             </>
-          </ul>
+          </ul> */}
           <div className="flex justify-between w-20">
             <div className="relative flex justify-center items-center">
               <FontAwesomeIcon icon={faBell} className="relative" />
