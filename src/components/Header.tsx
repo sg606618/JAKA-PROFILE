@@ -1,8 +1,10 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+  faBars,
   faBell,
   faCartShopping,
   faUser,
@@ -14,15 +16,20 @@ const Header = () => {
   return (
     <>
       <header className="flex justify-center items-center bg-[whitesmoke]">
-        <nav className="flex justify-around items-center w-full px-3 py-1">
+        <nav className="flex justify-between items-center w-full px-1 sm:px-5 md:px-10 py-1">
           <div className="flex w-14 h-14 rounded-full overflow-hidden">
-            <img
-              src="./images/pnglogo.png"
+            <Image
+              src="/images/pnglogo.png"
               alt="profile logo"
               className="object-cover w-full h-full"
+              width={100}
+              height={100}
             />
           </div>
-          <ul className="flex justify-around w-full max-w-[50rem]">
+          <div className="flex">
+            <FontAwesomeIcon icon={faBars} className="" />
+          </div>
+          <ul className="sm:flex justify-around w-full max-w-[50rem] hidden">
             <>
               {navLinks.map((items, index) => (
                 <li className="font-semibold text-black tracking-wider cursor-pointer">
