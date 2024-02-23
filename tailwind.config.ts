@@ -13,6 +13,12 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        anta: ['Anta'],
+        protestRevolution: ['Protest Revolution'],
+        caveat: ['Caveat'],
+        signika: ['Signika']
+      }
     },
   },
   plugins: [],
