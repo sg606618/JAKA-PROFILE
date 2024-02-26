@@ -79,3 +79,10 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 } */
+@media screen and (max-width: 640px) {
+  .JakaText {
+    background: linear-gradient(to right, white, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}

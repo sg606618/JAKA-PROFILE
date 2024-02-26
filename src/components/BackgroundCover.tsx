@@ -12,10 +12,10 @@ const BackgroundCover = () => {
         <div className="absolute w-full h-full bg-black z-10 flex sm:hidden bg-opacity-80"></div>
         <div className="relative h-full w-full flex justify-end items-start flex-col pb-40 z-50 px-4">
           <section className="flex flex-col mb-5">
-            <h1 className="JakaText text-[2rem] sm:text-[3rem] md:text-[4rem] lg:text-[5rem] font-bold font-signika -mb-4 md:-mb-8 tracking-wide text-white sm:text-black">
+            <h1 className="JakaText text-[2rem] sm:text-[3rem] md:text-[4rem] lg:text-[5rem] font-bold font-signika -mb-4 md:-mb-8 tracking-wide">
               JAKA NEPAL
             </h1>
-            <p className="text-[1rem] sm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.9rem] text-[#000] font-caveat tracking-normal md:tracking-widest font-semibold">
+            <p className="text-[1rem] sm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.9rem] text-white sm:text-black font-caveat tracking-normal md:tracking-widest font-semibold">
               Carry Style, Unleash Convenience
             </p>
           </section>
