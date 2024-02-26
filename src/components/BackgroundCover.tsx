@@ -20,7 +20,9 @@ const BackgroundCover = () => {
             </p>
           </section>
           <div className="flex w-fit h-fit justify-center items-center px-4 pr-8 py-2 bg-[#F6050B] rounded-lg font-bold relative text-white">
-            <button className="mx-2 font-semibold">Shop Now</button>
+            <button className="mx-2 font-semibold text-xs sm:text-xl">
+              Shop Now
+            </button>
             <FontAwesomeIcon
               icon={faArrowRight}
               className="mx-2 absolute right-2"
