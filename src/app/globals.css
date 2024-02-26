@@ -16,6 +16,57 @@
   letter-spacing: 0.1rem;
 }
 
+/* products */
 .bagsCollection {
-  filter: drop-shadow(0.3rem 0.5rem .5rem black);
+  filter: drop-shadow(0.3rem 0.5rem 0.5rem black);
 }
+
+/* Sponsored */
+.sponsoredContainer::before,
+.sponsoredContainer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 100%;
+}
+
+.sponsoredContainer::before {
+  left: 0;
+  z-index: 2;
+  background: linear-gradient(to right, black, transparent);
+}
+.sponsoredContainer::after {
+  right: 0;
+  z-index: 2;
+  background: linear-gradient(to left, red, transparent);
+}
+
+.sponsoredContainer:hover .sponsoredContent {
+  animation-play-state: paused;
+}
+
+.sponsoredContent {
+  animation: 25s slide infinite linear;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/* Products */
+.JakaText {
+  background: linear-gradient(to right, black, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* .productText {
+  background: linear-gradient(to right, black, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
