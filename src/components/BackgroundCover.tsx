@@ -33,7 +33,7 @@ const BackgroundCover = () => {
           </div>
           <div className="absolute right-0 md:right-20 top-24 w-40">
             <Image
-              src="/images/BlueNike.png"
+              src="/assets/images/newarrival/BlueNike.png"
               alt="Blue Nike Backpack"
               className="bagsCollection object-cover w-full h-full"
               width={100}
@@ -42,7 +42,7 @@ const BackgroundCover = () => {
           </div>
           <div className="absolute right-28 md:right-60 top-20 w-40">
             <Image
-              src="/images/BrownJeep.png"
+              src="/assets/images/newarrival/BrownJeep.png"
               alt="BrownJeep Backpack"
               className="bagsCollection object-cover w-full h-full"
               width={100}
@@ -51,7 +51,7 @@ const BackgroundCover = () => {
           </div>
           <div className="absolute right-14 md:right-40 top-24 w-40">
             <Image
-              src="/images/HempYggdrasil.png"
+              src="/assets/images/newarrival/HempYggdrasil.png"
               alt="HempYggdrasil Hemp Backpack"
               className="bagsCollection object-cover w-full h-full"
               width={100}

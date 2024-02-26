@@ -22,7 +22,7 @@ const Header = () => {
         <nav className="flex justify-between items-center w-full px-1 sm:px-5 md:px-10 py-1">
           <div className="flex w-14 h-14 rounded-full overflow-hidden">
             <Image
-              src="/images/pnglogo.png"
+              src="/assets/jakaassets/pnglogo.png"
               alt="profile logo"
               className="object-cover w-full h-full"
               width={100}
