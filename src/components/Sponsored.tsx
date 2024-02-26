@@ -32,7 +32,7 @@ const Sponsored = () => {
 
   return (
     <>
-      <div className="sponsoredContainer whitespace-nowrap bg-white overflow-hidden flex px-2 py-1 relative">
+      <div className="sponsoredContainer whitespace-nowrap bg-white overflow-scroll overflow-y-hidden flex px-2 py-1 relative">
         <div className="sponsoredContent flex mx-3">
           {images.map((items) => (
             <>

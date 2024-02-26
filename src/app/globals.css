@@ -34,16 +34,25 @@
 .sponsoredContainer::before {
   left: 0;
   z-index: 2;
-  background: linear-gradient(to right, black, transparent);
+  /* background: linear-gradient(to right, black, transparent); */
 }
 .sponsoredContainer::after {
   right: 0;
   z-index: 2;
-  background: linear-gradient(to left, red, transparent);
+  /* background: linear-gradient(to left, red, transparent); */
 }
 
 .sponsoredContainer:hover .sponsoredContent {
   animation-play-state: paused;
+}
+
+.sponsoredContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.sponsoredContainer {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .sponsoredContent {
