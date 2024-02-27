@@ -32,6 +32,9 @@ const Sponsored = () => {
 
   return (
     <>
+      <h2 className="productText font-bold md:text-4xl sm:text-3xl text-2xl lg:text-5xl text-center uppercase mb-5 w-fit mx-auto font-signika">
+        Trend
+      </h2>
       <div className="sponsoredContainer whitespace-nowrap bg-white overflow-scroll overflow-y-hidden flex px-2 py-1 relative">
         <div className="sponsoredContent flex mx-3">
           {images.map((items) => (
@@ -40,7 +43,7 @@ const Sponsored = () => {
                 height={100}
                 width={100}
                 src={items}
-                className="mx-2 cursor-pointer hover:scale-150 transition-all"
+                className="mx-2 cursor-pointer hover:scale-150 transition-all rounded-lg"
                 alt={"Nothing just happy."}
               />
             </>
