@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 
@@ -44,7 +46,7 @@ const Sponsored = () => {
                 width={100}
                 src={items}
                 className="mx-2 cursor-pointer hover:scale-150 transition-all rounded-lg"
-                alt={"Nothing just happy."}
+                alt="Nothing just happy."
               />
             </>
           ))}
