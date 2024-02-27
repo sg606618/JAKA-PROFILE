@@ -51,11 +51,20 @@
 }
 
 .sponsoredContainer {
+  white-space: nowrap;
+  background-color: white;
+  overflow: scroll;
+  overflow-y: hidden;
+  display: flex;
+  padding: 0.25rem 0.5rem;
+  position: relative;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
 
 .sponsoredContent {
+  display: flex;
+  margin: 0 0.75rem;
   animation: 25s slide infinite linear;
 }
 
