@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 
@@ -27,83 +29,81 @@ const Footer = () => {
                   The only trusted online shop.
                 </p>
               </div>
-              <div className="flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center justify-around w-full">
+              <div className="flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 justify-start w-full">
                 <div className="w-fit px-4">
                   <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3 uppercase">
                     services
                   </h2>
                   <nav className="list-none mb-10">
                     <li>
-                      <a className="text-gray-600 hover:text-gray-800">
-                        First services
-                      </a>
+                      <span className="text-gray-600 hover:text-gray-800 cursor-pointer">
+                        ✨Let's strive for a more fashionable look✨
+                      </span>
                     </li>
                     <li>
-                      <a className="text-gray-600 hover:text-gray-800">
-                        Second services
-                      </a>
+                      <span className="text-gray-600 hover:text-gray-800 cursor-pointer">
+                        🛒 Bag Collection
+                      </span>
                     </li>
                     <li>
-                      <a className="text-gray-600 hover:text-gray-800">
-                        Third services
-                      </a>
+                      <span className="text-gray-600 hover:text-gray-800 cursor-pointer">
+                        🚚 Delivery all over Nepal
+                      </span>
                     </li>
                     <li>
-                      <a className="text-gray-600 hover:text-gray-800">
-                        Fourth services
-                      </a>
+                      <span className="text-gray-600 hover:text-gray-800 cursor-pointer">
+                        ❌ No Return, Exchange within 24Hr incase of Damage
+                      </span>
                     </li>
                   </nav>
                 </div>
-                <div className="w-fit px-4">
+                <div className="w-fit px-4 flex-1">
                   <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3 uppercase">
                     Quick Links
                   </h2>
                   <nav className="list-none mb-10">
                     <li>
-                      <a className="text-gray-600 hover:text-gray-800">
-                        First Link
+                      <a className="text-gray-600 hover:text-gray-800 cursor-pointer">
+                        Instagram
                       </a>
                     </li>
                     <li>
-                      <a className="text-gray-600 hover:text-gray-800">
-                        Second Link
+                      <a className="text-gray-600 hover:text-gray-800 cursor-pointer">
+                        Facebook
                       </a>
                     </li>
                     <li>
-                      <a className="text-gray-600 hover:text-gray-800">
-                        Third Link
+                      <a className="text-gray-600 hover:text-gray-800 cursor-pointer">
+                        Twitter
                       </a>
                     </li>
                     <li>
-                      <a className="text-gray-600 hover:text-gray-800">
-                        Fourth Link
+                      <a className="text-gray-600 hover:text-gray-800 cursor-pointer">
+                        LinkedIn
                       </a>
                     </li>
                   </nav>
                 </div>
-                <div className="w-fit px-4">
+                <div className="w-fit px-4 flex-1">
                   <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3 uppercase">
                     Contact
                   </h2>
                   <nav className="list-none mb-10">
                     <li>
-                      <a className="text-gray-600 hover:text-gray-800">
-                        First Contact
-                      </a>
+                      <span className="text-gray-600 hover:text-gray-800">
+                        Pipalbot, Dillibazar, Kathmandu, Nepal
+                      </span>
                     </li>
                     <li>
-                      <a className="text-gray-600 hover:text-gray-800">
-                        Second Contact
-                      </a>
+                      <a className="text-gray-600 hover:text-gray-800 cursor-pointer"></a>
                     </li>
                     <li>
-                      <a className="text-gray-600 hover:text-gray-800">
+                      <a className="text-gray-600 hover:text-gray-800 cursor-pointer">
                         Third Contact
                       </a>
                     </li>
                     <li>
-                      <a className="text-gray-600 hover:text-gray-800">
+                      <a className="text-gray-600 hover:text-gray-800 cursor-pointer">
                         Fourth Contact
                       </a>
                     </li>
@@ -118,7 +118,7 @@ const Footer = () => {
             <p className="text-gray-500 text-sm text-center sm:text-left">
               © 2024 JAKANEPAL —
               <a
-                href="https://twitter.com/jakanepal"
+                href="https://www.instagram.com/jakanepal/"
                 rel="noopener noreferrer"
                 className="text-gray-600 ml-1"
                 target="_blank"
@@ -127,10 +127,42 @@ const Footer = () => {
               </a>
             </p>
             <span className="flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start flex-wrap">
-              <a className="text-gray-500">facebook</a>
-              <a className="ml-3 text-gray-500">twitter</a>
-              <a className="ml-3 text-gray-500">instagram</a>
-              <a className="ml-3 text-gray-500">linkedin</a>
+              <a className="text-gray-500 w-10 h-10 overflow-hidden bg-transparent grid place-items-center">
+                <Image
+                  className="object-fit cursor-pointer hover:scale-125 transition-all"
+                  width={100}
+                  height={100}
+                  src="/assets/socialmedia/facebook.png"
+                  alt="facebook logo"
+                />
+              </a>
+              <a className="text-gray-500 w-10 h-10 overflow-hidden bg-transparent grid place-items-center">
+                <Image
+                  className="object-fit cursor-pointer hover:scale-125 transition-all"
+                  width={100}
+                  height={100}
+                  src="/assets/socialmedia/facebook.png"
+                  alt="instagram logo"
+                />
+              </a>
+              <a className="text-gray-500 w-10 h-10 overflow-hidden bg-transparent grid place-items-center">
+                <Image
+                  className="object-fit cursor-pointer hover:scale-125 transition-all"
+                  width={100}
+                  height={100}
+                  src="/assets/socialmedia/twitter.png"
+                  alt="twitter logo"
+                />
+              </a>
+              <a className="text-gray-500 w-10 h-10 overflow-hidden bg-transparent grid place-items-center">
+                <Image
+                  className="object-fit cursor-pointer hover:scale-125 transition-all"
+                  width={100}
+                  height={100}
+                  src="/assets/socialmedia/facebook.png"
+                  alt="linkedin logo"
+                />
+              </a>
             </span>
           </div>
         </div>
